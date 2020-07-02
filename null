@@ -1,0 +1,4 @@
+#!/bin/bash
+shuf -n 1 ~/null/message
+PS1='\[\033[01;34m\]\w\[\033[00m\]\ {} '
+alias null'=echo "{}" | toilet --gay -f mono12'
